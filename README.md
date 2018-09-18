@@ -1,5 +1,16 @@
-# hello-world
-新手
-我是一个大大的新手，我想学习java
-我现在正在测试怎么啦请求，想通过github学些java
-我还不知道该怎么做
+public class Student{
+   private int stuNo;
+   private String stuName;
+   public void setStuNo(int stuNo){
+       this.stuNo = stuNo;
+   }
+   public int getStuNo(){
+       return stuNo;
+   }
+   public void setStuName(String stuName){
+      this.stuName = stuName
+   }
+   public String getStuName(){
+      return stuName;
+   }
+}
